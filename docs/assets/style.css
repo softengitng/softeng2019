@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #ddd;
+  margin: 0;
+}
+
+#wrapper {
+  margin: 40px auto;
+  background: #fff;
+  width: 800px;
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Organizers {
+  width: 100%;
+  clear: both;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-top: solid 1px #ddd;
+}
+
+.OrganizersLabel {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f30;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#Deadline {
+  width: 94%;
+  display: block;
+  padding: 20px;
+  margin-top: 26px;
+  margin-bottom: 20px;
+  background: #f0f0f0;
+  border: solid 1px #ddd;
+}
+
+#TrackDays {
+  width: 94%;
+  display: block;
+  padding: 20px;
+  margin-top: 26px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: solid 1px #ddd;
+}
+
+.DeadlineTitle {
+  margin: 0 0 16px 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f30;
+  text-transform: uppercase;
+}
+
+#SubmitPaper {
+  display: block;
+  margin-top: 26px;
+  border-radius: 6px;
+  background-color: #f30;
+  color: #fff;
+  padding: 22px 14px;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#SubmitPaper a:hover {
+  background-color: #f00;
+}
+
+.header {
+  width: 100%;
+  height: 400px;
+  background: url(../images/LasVegasITNG2019.jpg) no-repeat #000;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.HeadlineTrack {
+  font-size: 30px;
+  color: #006600;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.HeadlineEventName {
+  font-size: 28px;
+  color: #fff;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.MenuItem {
+  padding: 20px 30px;
+  font-size: 14px;
+  border-right: solid 1px #ddd;
+}
+
+.MenuItem a {
+  text-decoration: none;
+  color: #676767;
+}
+
+.MenuItem a:hover {
+  color: #111;
+}
+
+.MenuItem:last-child {
+  border-right: 0;
+}
+
+a:visited {
+  color: #999;
+}

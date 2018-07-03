@@ -1,3 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #ccc;
+  margin: 0;
+}
+
+#wrapper {
+  margin: 40px auto;
+  background: #fff;
+  width: 800px;
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+#organizers {
+  width: 100%;
+  clear: both;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-top: solid 1px #ddd;
+}
+
+.organizers-label {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  color: #f30;
+  margin-bottom: 20px;
+}
+
+#Deadline {
+  width: 90%;
+  display: block;
+  padding: 20px;
+  margin-top: 26px;
+  margin-bottom: 20px;
+  background: #f0f0f0;
+  border: solid 1px #ddd;
+}
+
+#TrackDays {
+  width: 90%;
+  display: block;
+  padding: 20px;
+  margin-top: 26px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: solid 1px #ddd;
+}
+
+.DeadlineTitle {
+  margin: 0 0 16px 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f00;
+  text-transform: uppercase;
+}
+
+#SubmitPaper {
+  display: block;
+  margin-top: 26px;
+  border-radius: 6px;
+  background-color: #f30;
+  color: #fff;
+  padding: 22px 14px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#SubmitPaper:hover {
+  background-color: #f00;
+}
+
+.header {
+  width: 100%;
+  height: 400px;
+  background: url(las-vegas-itng-2019.jpg) no-repeat #000;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.HeadlineTrack {
+  font-size: 30px;
+  color: #006600;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.HeadlineEventName {
+  font-size: 28px;
+  /*color: #009966;*/
+  color: #fff;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.MenuItem {
+  /*width: 20%;*/
+  padding: 20px 30px;
+  font-size: 14px;
+  color: #777;
+  border-right: solid 1px #ddd;
+}
+
+.MenuItem:last-child {
+  border-right: 0;
+}
+
 .paragraph_style {
 	color: #006600;
 	font-family: '!CRASSROOTSOFL', '!CRASS ROOTS OFL';
@@ -22,7 +137,6 @@
 }
 .paragraph_style_1 {
 	color: #006600;
-	font-family: 'TrebuchetMS-Bold', 'Trebuchet MS', sans-serif;
 	font-size: 14px;
 	font-stretch: normal;
 	font-style: normal;
@@ -44,29 +158,28 @@
 }
 .paragraph_style_2 {
     color: rgb(81, 78, 78);
-    font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
-    font-size: 12px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
     font-stretch: normal;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 15px;
+    line-height: 21px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    opacity: 1.00;
     padding-bottom: 8px;
     padding-top: 0px;
-    text-align: justify;
+    // text-align: justify;
     text-decoration: none;
     text-indent: 0px;
     text-transform: none;
 }
 .paragraph_style_3 {
 	color: #009966;
-	font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 28px;
 	font-stretch: normal;
 	font-style: normal;
@@ -91,7 +204,7 @@
 }
 .paragraph_style_4 {
 	color: #006600;
-	font-family: 'TrebuchetMS-Bold', 'Trebuchet MS', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-stretch: normal;
 	font-style: normal;
@@ -113,7 +226,7 @@
 }
 .paragraph_style_5 {
 	color: #009966;
-	font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 28px;
 	font-stretch: normal;
 	font-style: normal;
@@ -135,7 +248,7 @@
 }
 .paragraph_style_6 {
 	color: #009966;
-	font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-stretch: normal;
 	font-style: normal;
@@ -157,7 +270,7 @@
 }
 .paragraph_style_7 {
     color: rgb(169, 169, 169);
-    font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 10px;
     font-stretch: normal;
     font-style: normal;
@@ -179,7 +292,7 @@
 }
 .paragraph_style_8 {
     color: rgb(94, 94, 94);
-    font-family: 'TrebuchetMS', 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-stretch: normal;
     font-style: normal;
@@ -201,7 +314,7 @@
 }
 .paragraph_style_9 {
 	color: #009966;
-	font-family: 'TrebuchetMS-Bold', 'Trebuchet MS', sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-stretch: normal;
 	font-style: normal;
@@ -257,7 +370,7 @@
 }
 .paragraph_style_11 {
     color: rgb(94, 94, 94);
-    font-family: 'TrebuchetMS-Bold', 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-stretch: normal;
     font-style: normal;
@@ -306,7 +419,7 @@
     text-transform: none;
 }
 .style_4 {
-    font-family: 'TrebuchetMS-Bold', 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-stretch: normal;
     font-style: normal;
@@ -369,7 +482,7 @@
     text-transform: none;
 }
 .style_5 {
-    font-family: 'TrebuchetMS-Bold', 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 10px;
     font-stretch: normal;
     font-style: normal;
@@ -377,7 +490,7 @@
     line-height: 13px;
 }
 .style_6 {
-    font-family: 'TrebuchetMS-Bold', 'Trebuchet MS', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 10px;
     font-stretch: normal;
     font-style: normal;
@@ -588,12 +701,6 @@
 .graphic_textbox_layout_style_default_External_188_100 {
     position: relative;
 }
-.graphic_textbox_layout_style_default_External_347_472 {
-    position: relative;
-}
-.graphic_textbox_layout_style_default_External_537_22 {
-    position: relative;
-}
 .graphic_textbox_layout_style_default_External_137_111 {
     position: relative;
 }
@@ -692,20 +799,20 @@ a:hover {
     font-size: 1px;
     line-height: 1px;
 }
-body { 
+body {
     -webkit-text-size-adjust: none;
 }
-div { 
-    overflow: visible; 
+div {
+    overflow: visible;
 }
-img { 
-    border: none; 
+img {
+    border: none;
 }
-.InlineBlock { 
-    display: inline; 
+.InlineBlock {
+    display: inline;
 }
-.InlineBlock { 
-    display: inline-block; 
+.InlineBlock {
+    display: inline-block;
 }
 .inline-block {
     display: inline-block;
