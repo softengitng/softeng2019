@@ -45,6 +45,16 @@ body {
   font-weight: bold;
 }
 
+#FlagCounter {
+  width: 100%;
+  clear: both;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-top: solid 1px #ddd;
+  text-align: left;
+}
+
 #Organizers {
   width: 100%;
   clear: both;
