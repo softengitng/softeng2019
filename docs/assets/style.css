@@ -252,3 +252,20 @@ a:visited {
   display: block;
   text-transform: uppercase;
 }
+
+#CommitteeMembers {
+  margin: 0;
+  padding: 0;
+}
+
+#CommitteeMembers li {
+  width: 48%;
+  float: left;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.CommitteeMembersContainer {
+  display: table;
+  clear: both;
+}
